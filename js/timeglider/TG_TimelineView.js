@@ -63,8 +63,8 @@ timeglider.TimelineView
     		TICKS : PL + " .timeglider-ticks", 
     		HANDLE : PL + " .timeglider-handle",
     		FOOTER : PL + " .timeglider-footer",
-    		FILTER_BT : PL + " .timeglider-filter-bt",
-    		FILTER_BOX : PL + " .timeglider-filter-box",
+//    		FILTER_BT : PL + " .timeglider-filter-bt",
+//    		FILTER_BOX : PL + " .timeglider-filter-box",
     		TOOLS_BT : PL + " .timeglider-tools-bt"
 	    }
 	  
