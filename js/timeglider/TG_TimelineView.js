@@ -157,7 +157,7 @@ timeglider.TimelineView
 	
 	// INITIAL CONSTRUCTION
 	this.buildSlider();
-	this.setupFilter();
+//	this.setupFilter();
 	
 
   /* PUB-SUB "LISTENERS" SUBSCRIBERS */
@@ -1345,7 +1345,7 @@ tg.TG_TimelineView.prototype = {
  	      // cycle through comma separated include keywords
  	      for (i=0; i<ia.length; i++) {
  	        ii = new RegExp($.trim(ia[i]), "i");
- 	        if (ev.title.match(ii)) { ret = true; }
+ 	        if (ev.tags.match(ii)) { ret = true; }
          }
       }
 
@@ -1354,7 +1354,7 @@ tg.TG_TimelineView.prototype = {
 	      ea = excl.split(",");
 	      for (e=0; e<ea.length; e++) {
 	        ei = new RegExp($.trim(ea[e]), "i");
-	        if (ev.title.match(ei)) { ret = false; }
+	        if (ev.tags.match(ei)) { ret = false; }
         }
      }
      

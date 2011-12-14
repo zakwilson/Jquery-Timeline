@@ -171,7 +171,7 @@ tg.TG_Mediator.prototype = {
 	            	// using "tg-*" map each column to the corresponding data
               		return $(this).attr( 'class' ).replace( /^.*?\btg-(\S+)\b.*?$/, '$1' );
             	}).get();
-
+                    
           	} else {
 				// i.e. an event
            		row_obj = {};
